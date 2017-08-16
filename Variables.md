@@ -116,14 +116,13 @@ public class Employee {
 import java.io.*;
 public class Employee {
 
-   // salary  variable is a private static variable
-   public static final double SALARY;
+   // SALARY  variable is a constant
+   public static final double SALARY = 1000;
 
    // DEPARTMENT is a constant
    public static final String DEPARTMENT = "Development ";
 
    public static void main(String args[]) {
-      SALARY = 1000;
       System.out.println(DEPARTMENT + "average salary:" + SALARY);
    }
 }
