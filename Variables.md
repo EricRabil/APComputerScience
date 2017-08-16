@@ -57,7 +57,7 @@ There are three levels of security that can be set for variables, methods etc.
 ##### Examples
 
 ###### Local Variables
-```
+```java
 // Will run
 public void pupAge() {
    int age = 7
@@ -77,7 +77,7 @@ public static void main(String args[]) {
 ```
 
 ###### Instance Variables
-```
+```java
 import java.io.*;
 public class Employee {
 
@@ -112,7 +112,7 @@ public class Employee {
 ```
 
 ### Static Variables
-```
+```java
 import java.io.*;
 public class Employee {
 
