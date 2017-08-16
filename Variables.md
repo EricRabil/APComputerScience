@@ -15,7 +15,7 @@
 - `char` - A single Unicode character
 
 ###### Examples
-```
+```java
 int a, b, c;         // Declares three unitialized ints, a, b, and c.
 int a = 10, b = 10;  // Declares two initialized ints a and b with the value 10
 byte B = 22;         // initializes a byte type variable B.
