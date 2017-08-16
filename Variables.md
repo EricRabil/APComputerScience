@@ -29,21 +29,19 @@ There are three kinds of variables in Java. The three kinds are:
 - Instance variables
 - Class/Static variables
 
-> **Local Variables**
-> Local variables are declared in methods, constructors or blocks. They are created when the method, constructor or block is called and destroyed when the method, constructor or block exits. Access modifiers cannot be applied to local variables and are visible only within the declared scope.
+> **Local Variables** are declared in methods, constructors or blocks. They are created when the method, constructor or block is called and destroyed when the method, constructor or block exits. Access modifiers cannot be applied to local variables and are visible only within the declared scope.
 
-> **Instance Variables**
-> Instance variables are declared in the class itself, not inside a method, constructor or any block. They are initialized and destroyed when the 
+> **Instance Variables** are declared in the class itself, not inside a method, constructor or any block. They are initialized and destroyed when the 
 containing object is initialized and destroyed, respectively.
 > The variable can be declared at any position in the class, however it is common practice to declare all class-scoped variables at the top of the class, before any methods or constructors.
 > The variable can be accessed directly within methods and constructors, however it is common practice to access these prefixed with `this` to avoid naming collisions.
 
-> **Static Variables**
-> Static variables are declared in the same way instance variables are, however they are prefixed with `static` **before** the type declaration.
+> **Static Variables** are declared in the same way instance variables are, however they are prefixed with `static` **before** the type declaration.
 > There is one copy of static variables per class, whereas instance variables are present as many times as there is an instance of the containing object.
 > Static variables are stored in *static* memory, meaning they should be declared final.
 
 > **Variable Initialization**
+>
 > Local variables require initialization to be interacted with, while instance and static variables are assigned a default value (falls back to null if there is no default value.)
 
 ##### Access modifiers
